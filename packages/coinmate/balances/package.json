@@ -1,0 +1,11 @@
+{
+  "name": "buy",
+  "version": "1.0.0",
+  "description": "Serverless QR generator",
+  "main": "balances.js",
+  "dependencies": {
+    "@slack/webhook": "^6.1.0",
+    "crypto": "^1.0.1",
+    "request-promise": "^4.2.6"
+  }
+}

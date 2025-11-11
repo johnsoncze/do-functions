@@ -8,6 +8,7 @@ const api = require('./api')(config)
 exports.main = async (args) => {
 	try {
 		const transactionId = await coinmate.buy(args.amountToBuy)
+		logger(`Transaction ID: ${transactionId}`);
 		const transactions = await coinmate.getTransactions(transactionId);
 		logger('(timestamp, price, amount, fee, spent)');
 		await utils.asyncForEach(transactions, async (t) => {

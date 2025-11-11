@@ -4,14 +4,18 @@
     "namespace": "fn-788200f8-93a9-47cd-999a-9a57cd19cbf4",
     "packageVersions": {
       "coinmate": {
-        "version": "0.0.17",
-        "digest": "d3140274f551731f4a2474c099b19e49d51ad204d5372bc0879e695295492425"
+        "version": "0.0.34",
+        "digest": "ac42302a76339700fb61053de4c85a1984e036c82db00073f98f5ee0e1c8e8c6"
       }
     },
     "actionVersions": {
+      "coinmate/balances": {
+        "version": "0.0.10",
+        "digest": "ed7130ef5211d5415f12e69defcd190fd7104e0a5fe4e6ea4e8bf27a83448337"
+      },
       "coinmate/buy": {
-        "version": "0.0.18",
-        "digest": "c4805e2be5736f615599197607f354e9e076b4bc60b6adca8a8aad190ccee4e3"
+        "version": "0.0.35",
+        "digest": "e15f904ff51be03f097e430bfb489139d6a622f3f12fbc3f23666065180ee593"
       }
     },
     "webHashes": {}
